@@ -150,8 +150,7 @@
             android:layout_alignParentBottom="true"
             android:layout_below="@id/count_parents_spacer4"
             android:layout_centerHorizontal="true"
-            android:text="@string/button_back"
-            android:textSize="12sp" />
+            android:background="@drawable/button_back" />
 
     </RelativeLayout>
 </ScrollView>
