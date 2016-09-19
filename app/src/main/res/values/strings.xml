@@ -36,6 +36,7 @@
     <string name="empfaenger_vorname">Vorname:</string>
     <string name="empfaenger_neu_geb_dat">Geb.Dat.:</string>
     <string name="dialog_first_choice">Haben sie die richtige Wahl getroffen?</string>
+    <string name="button_back">zurück</string>
 
 
 </resources>
