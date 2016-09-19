@@ -16,13 +16,14 @@
 
         <TextView
             android:id="@+id/count_parents_name"
-            android:layout_width="70dp"
+            android:layout_width="80dp"
             android:layout_height="40dp"
             android:layout_alignParentEnd="false"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:text="@string/empfaenger_vorname"
-            android:textSize="16sp" />
+            android:textSize="18sp"
+            android:textColor="#000000"/>
 
         <Spinner
             android:id="@+id/spinner"
@@ -44,7 +45,8 @@
             android:layout_alignParentStart="true"
             android:layout_below="@id/count_parents_spacer1"
             android:text="@string/title_actual_count"
-            android:textSize="16sp" />
+            android:textSize="18sp"
+            android:textColor="#000000"/>
 
         <TextView
             android:id="@+id/show_actual_count"
@@ -53,7 +55,8 @@
             android:layout_below="@id/count_parents_spacer1"
             android:layout_marginStart="90dp"
             android:textAlignment="textEnd"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textColor="#000000"/>
 
         <TextView
             android:id="@+id/euro"
@@ -62,8 +65,10 @@
             android:layout_below="@id/count_parents_spacer1"
             android:layout_marginStart="195dp"
             android:text="@string/euro"
+            android:textSize="18sp"
             android:textAlignment="textStart"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textColor="#000000"/>
 
         <Space
             android:id="@+id/count_parents_spacer2"
@@ -91,7 +96,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:text="@string/days_10"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:textColor="#000000"/>
 
             <RadioButton
                 android:id="@+id/radioButton_30"
@@ -106,7 +112,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:text="@string/days_30"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:textColor="#000000"/>
 
             <RadioButton
                 android:id="@+id/radioButton_60"
@@ -121,7 +128,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:text="@string/days_60"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:textColor="#000000"/>
         </LinearLayout>
 
         <Space
@@ -136,18 +144,18 @@
             android:layout_height="280dp"
             android:layout_alignParentStart="true"
             android:layout_below="@id/count_parents_spacer3"
-            android:background="#bbb9b9" />
+            android:background="#bbb9b9"
+            android:textColor="#000000"/>
 
         <Space
             android:id="@+id/count_parents_spacer4"
             android:layout_width="match_parent"
-            android:layout_height="10dp"
+            android:layout_height="15dp"
             android:layout_below="@id/count_parents_list" />
 
         <Button
             android:layout_width="110dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
+            android:layout_height="30dp"
             android:layout_below="@id/count_parents_spacer4"
             android:layout_centerHorizontal="true"
             android:background="@drawable/button_back" />
